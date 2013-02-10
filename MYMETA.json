@@ -4,7 +4,7 @@
       "David B. Robins, <dbrobins@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Module::Install version 1.06, CPAN::Meta::Converter version 2.120630",
+   "generated_by" : "Module::Install version 1.06, CPAN::Meta::Converter version 2.120921",
    "license" : [
       "perl_5"
    ],
@@ -43,8 +43,9 @@
          "http://dev.perl.org/licenses/"
       ],
       "repository" : {
+         "type" : "git",
          "url" : "git://github.com/rkitover/net-ssh2.git"
       }
    },
-   "version" : "0.46"
+   "version" : "0.47"
 }
