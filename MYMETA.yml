@@ -5,9 +5,9 @@ author:
 build_requires:
   ExtUtils::MakeMaker: 6.59
 configure_requires:
-  ExtUtils::MakeMaker: 6.59
+  ExtUtils::MakeMaker: 0
 dynamic_config: 0
-generated_by: 'Module::Install version 1.06, CPAN::Meta::Converter version 2.120921'
+generated_by: 'ExtUtils::MakeMaker version 6.66, CPAN::Meta::Converter version 2.131560'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -15,12 +15,8 @@ meta-spec:
 name: Net-SSH2
 no_index:
   directory:
-    - example
-    - inc
     - t
+    - inc
 requires:
   perl: 5.006
-resources:
-  license: http://dev.perl.org/licenses/
-  repository: git://github.com/rkitover/net-ssh2.git
-version: 0.48
+version: 0.49
